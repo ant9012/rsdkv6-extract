@@ -1,6 +1,7 @@
 name: Build rsdkv6-extract
 
 on:
+  workflow_dispatch: 
   push:
     branches:
       - master
